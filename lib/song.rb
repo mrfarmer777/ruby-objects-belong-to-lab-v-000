@@ -1,14 +1,14 @@
 class Song
 
-  attr_accessor :name, :artist
+  attr_accessor :title, :artist
 
   def initialize
-    @name="Kiss"
+    @title="Kiss"
     @artist=Artist.new
   end
 
   def artist
-    @artist    
+    @artist
   end
 
 end
