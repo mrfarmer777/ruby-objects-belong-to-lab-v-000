@@ -3,7 +3,7 @@ class Song
   attr_accessor :name, :artist
 
   def artist
-    @artist.name
+    @artist.Artist.new
   end
 
 end
