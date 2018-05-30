@@ -6,7 +6,7 @@ class Song
     @name="Kiss"
     @artist=Artist.new
   end
-  
+
   def artist
     @artist.name
   end
