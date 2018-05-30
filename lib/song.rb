@@ -4,9 +4,11 @@ class Song
 
   def initialize
     @name="Kiss"
-  end
-  def artist
     @artist=Artist.new
+  end
+  
+  def artist
+    @artist.name
   end
 
 end
